@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#d1{
+    height: 10vh;
+    width: 20vw;
+    background-color: lightblue;
+    display: inline-block;
+    margin:50px;
+    border-radius: 50%;
+    justify-content: flex-end;
+}
+div{
+    box-shadow: 30px 20px 40px black ;
+    width: 20em;
+    height: 35em;
+    margin: auto;
+    border:yellow solid 1em;
+    font-size: 1em;
+    /*margin-left: ;*/
+    background-color: lightseagreen;
+    margin-top: 5em;
+    border-radius:3em ;
+}
+div:hover{
+    transform: scale(25em, 40em);
+    border: yellow solid 1.5em;
+    font-size: 2em;
+}
+table{
+    width: 80%;
+    margin: auto;
+    margin-top: 5em;
+    padding: 2em;
+  /*border: solid black;
+    border-radius: 3em;
+   background-color: lightgreen;*/
+
+}
+/*#fL{
+    margin-bottom: 1em;
+}*/
+tr,td{
+    padding: 0.5em;
+}
+
+/*.entrance{
+    margin-top:150px ;
+    margin-left: 30em;
+    height: 400px;
+    width: 350px;
+    background-color:palegreen;
+   display: flex;
+}*/
+img{
+    height:1em;
+    width: 1em;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    
+    
+}
+/*.in_header{
+    display: inline-block;
+    height: 2em;
+    width: 2em;
+    align-items: center;
+    background-color: tomato;
+    text-align: center;
+
+}*/
+#im{
+    display: flex;
+    align-items: center;
+}
+h6{
+    margin-left: 8em;
+    margin-top: 1em;
+    text-align: center;
+}
+button{
+    height: 3em;
+    width: 6em;
+    margin-top: 2em;
+    border: solid black;
+    border-radius: 10em;
+    background-color: blue;
+    color: white;
+}
+button:hover{
+    background-color: lightblue;
+    color: black;
+    
+}
