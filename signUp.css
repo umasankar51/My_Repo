@@ -17,22 +17,38 @@ div{
     height: 35em;
     margin: auto;
     border:yellow solid 1em;
-    font-size: 1em;
     /*margin-left: ;*/
     background-color: lightseagreen;
     margin-top: 5em;
     border-radius:3em ;
+    transition: 2s 1s;
 }
 div:hover{
+    width: 40em;
+    height: 40em;
     transform: scale(25em, 40em);
-    border: yellow solid 1.5em;
-    font-size: 2em;
+    border: red solid 1.5em;
+    border-radius: 50%;
+    /*font-size: 2em;*/
+}
+#demo{
+    background-color: tomato;
+    height: 20em;
+    width: 20em;
+    border: 2sem;
+    transition: 2s 1s;
+    display: inline;
+}
+input{
+    border:solid black;
+    border-radius: 5%;
 }
 table{
     width: 80%;
     margin: auto;
     margin-top: 5em;
     padding: 2em;
+
   /*border: solid black;
     border-radius: 3em;
    background-color: lightgreen;*/
