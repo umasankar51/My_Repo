@@ -4,40 +4,96 @@
     
     
 }
-nav{
-    width:100%;
-    height: 2.5em;
+.whole-nav {
+    width:50em;
+    height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: rgb(4, 109, 97);
     display: flex;
+    position: fixed;
 }
-#logo{
-    height: 2.5em;
-    width: 5vw;
-
-    display: inline-block;
-    background-color: brown;
+#left-nav{
+    width: 10em;
+    height: 1em;
+    display: flex;  
+    align-content: center;
+    margin-left: 0em;
+}
+.right-nav{
+    width: 20em;
+    height: 1em;
+    background-color: blue;
     display: flex;
-    
+    justify-content: center;
+
 }
-#webName{
+.logIn,.signUp{
+    width: 5em;
+    height: 1.25em;
+    margin-left: 1em;
+    border-color:red;
     display: inline-block;
-    margin-left:1em ;
-    font-size: 1.5em;
-    background-color:orange;
-    margin-left: 0.5em;
-}
-#btn{
-    margin-left: 30em;
-    background-color: tomato;
-}
-button{
-    height: auto;
-    width: auto;
-    display: inline-block;
-    border-radius: 20em;
+    border-radius: 10em;
     border-color: brown;
     border-width: 0.2em;
     background-color: green;
 
+    
+}
+/*.logIn{
+    width: 5em;
+    height: 1.25em;
+}*/
+.logIn:hover,
+.signUp:hover {
+    width: 5em;
+    height: 1.25em;
+    border-color: darkorange;
+    
+    background-color: yellow;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 0.5em;
+
+    margin: 5px;
+}
+.u-logo{
+    height: 1em;
+    width: 2em;
+
+    display: flex;
+}
+#logo{
+    height: 1em;
+    width: 2.5em;
+
+    display: inline-block; 
+   /* background-color: brown; */
+    display: flex;
+    
+}
+.web-name{
+    height: 100%;
+    width: 10em;
+    display: flex;
+    align-content: center;
+    background-color: brown;
+    margin:0em ;
+    padding: 0;
+    font-size: 1.5em;
+    
+    
+}
+footer{
+    width: 10em;
+    height: 50em;
+    background-color: rgb(104, 109, 4);
+    display: flex;
+    align-content: flex-end;
 }
 
